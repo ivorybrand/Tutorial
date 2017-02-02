@@ -66,19 +66,19 @@ $.ajax({
 //General files
 include_css('https://ivorybrand.github.io/ivorybrand-website/general/general-style-' + templateID +'.css');
 include_css('//fonts.googleapis.com/css?family=Droid+Serif:400,700|Oswald:700,400');
-include_js_label(core_file_paths + core_folder_paths + '/general/init.js');
+include_js_label('https://ivorybrand.github.io/ivorybrand-website/general/init.js');
 
 //Index and homepage files
 if (get_pagetype() === 'index' || get_pagetype() === 'homepage') {
-	include_css(core_file_paths + core_folder_paths + '/index/index-style-' + templateID +'.css');
+	include_css('https://ivorybrand.github.io/ivorybrand-website/index/index-style-' + templateID +'.css');
 }
 
 //Static page files
 if (get_pagetype() === 'static page') {
-	include_css(core_file_paths + core_folder_paths + '/static-page/static-page-style-' + templateID +'.css');
+	include_css('https://ivorybrand.github.io/ivorybrand-website/static-page/static-page-style-' + templateID +'.css');
 }
 
 //Item files
 if (get_pagetype() === 'item') {
-	include_css(core_file_paths + core_folder_paths + '/item/item-style-' + templateID +'.css');
+	include_css('https://ivorybrand.github.io/ivorybrand-website/item/item-style-' + templateID +'.css');
 }
