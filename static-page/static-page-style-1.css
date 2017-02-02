@@ -1,0 +1,122 @@
+
+/*------------------------------ STATIC PAGE SET ------------------------------*/
+
+h1.post-title, h2.post-title { margin: 0 0 1em; }
+p {
+	margin: 0 0 0 20px;
+	line-height: 1.9em;
+}
+
+/*------------------------------ GENERAL CHECKOUT ------------------------------*/
+
+#empty_cart {
+	border-bottom: 1px solid #9a9a9a;
+	text-align: center;
+	width: 100%;
+}
+
+/*------------------------------ CHECKOUT COUNTRY SELECT ------------------------------*/
+
+#countries {
+	width: 100%;
+	border-bottom: 1px solid #9a9a9a;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+/*------------------------------ CHECKOUT SHIPPING TYPES SELECT ------------------------------*/
+
+#shipping_types {
+	width: 100%;
+	border-bottom: 1px solid #9a9a9a;
+	padding: 20px 0 10px;
+}
+#shipping_types div.separation {
+	margin: 0 0 10px;
+}
+#shipping_types span {
+	font-weight: bold;
+	color: #960000;
+}
+#shipping_types select {
+	width: 350px;
+}
+
+/*------------------------------ CHECKOUT TRACKING NUMBER ------------------------------*/
+
+#track_wrap {
+	width: 100%;
+	border-bottom: 1px solid #9a9a9a;
+	margin: 10px 0 15px;
+	padding: 10px 0 10px;
+}
+#track_wrap .add_track {
+	width: 300px;
+	display: block;
+}
+#track_wrap .add_track img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	float: left;
+}
+#track_wrap .add_track .item_name {
+	display: none;
+}
+#track_wrap .add_track .track_price {
+	color: #960000;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 5px 0;
+}
+#product-added {
+	display: none;
+}
+
+/*------------------------------ CONTACT US CONTACT FORM MESSAGE ------------------------------*/
+
+.contactform,
+.contact-form-widget,
+.form,
+.contact-form {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+#contact_form_style_message {
+	text-align: left;
+	padding: 5px 0;
+}
+.contact-form-error-message,
+.contact-form-success-message,
+#contact_form_style_message p {
+	display: none;
+}
+.contact-form-button-submit,
+.contact-form-button {
+	border: 1px solid transparent;
+	display: inline-block;
+	text-align:center;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 0 0.75em;
+	font-weight: bold;
+	padding: .25em .5em;
+	position: relative;
+	background: #960000 !important;
+	color: white !important;
+	line-height: 0;
+}
+.contact-form-button-submit:hover,
+.contact-form-button:hover,
+.contact-form-button-submit:link,
+.contact-form-button:link,
+.contact-form-button-submit:visited,
+.contact-form-button:visited,
+.contact-form-button-submit:active,
+.contact-form-button:active {
+	background: #960000 !important;
+	color: white !important;
+}
