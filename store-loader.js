@@ -64,7 +64,7 @@ $.ajax({
 });
 
 //General files
-include_css(core_file_paths + core_folder_paths + '/general/general-style-' + templateID +'.css');
+include_css('https://ivorybrand.github.io/ivorybrand-website/general/general-style-' + templateID +'.css');
 include_css('//fonts.googleapis.com/css?family=Droid+Serif:400,700|Oswald:700,400');
 include_js_label(core_file_paths + core_folder_paths + '/general/init.js');
 
