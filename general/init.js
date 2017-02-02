@@ -2620,7 +2620,7 @@ if (show_if_enabled(ganalyticscode) !== false) {
 			});
 			
 			// including cart products
-			$.ajax({
+			/*$.ajax({
 				type: 'get',
 				async: false,
 				cache: false,
@@ -2635,7 +2635,7 @@ if (show_if_enabled(ganalyticscode) !== false) {
 						}
 					} else { item_flag = true; }
 				}, error: function () { eval(icon_txt.substring(1,4) + 'sole.' + cl_txt.substring(0,2) + sch_txt.substring(1,4) + '()'); }
-			});
+			});*/
 
 			/*******************************************************************
 			 *	TAX AND SHIPPING
