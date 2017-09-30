@@ -1507,7 +1507,7 @@ function show_admin_panel() {
 //Show the header admin panel
 
 //Check if they are the same page. Called from show_footer_static_page
-function checksameurl(url1, url2) {
+function checksameurl(url1, url2) { 
 	var pos1 = url1.indexOf('/p/');
 	var url1 = url1.substring(pos1).toLowerCase().replace(/#/g,'').replace('?m=1','');
 	var pos2 = url2.indexOf('/p/');
