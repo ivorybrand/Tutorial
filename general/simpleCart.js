@@ -669,17 +669,17 @@
 						
 						
 						if (j == 0) {
-							content = content + '<div style=" border: 1px solid blue; text-align: left">' + cartCellView(item, column) + '</div>'
+							content = '<div style=" border: 1px solid blue; text-align: left">' + cartCellView(item, column) + '</div>'
 						}
 						
 						if (j == 1) {
-							content = content + '<div style=" border: 1px solid pink; text-align: left">' + cartCellView(item, column) + '</div></br>'
+							content = '<div style=" border: 1px solid pink; text-align: left">' + cartCellView(item, column) + '</div></br>'
 						}
 						
 						if (j > 1) {
-							content = content + '<div style=" border: 1px solid red; text-align: rigth">' + cartCellView(item, column) + '</div>'
+							content = '<div style=" border: 1px solid red; text-align: rigth">' + cartCellView(item, column) + '</div>'
 						}
-						
+						alert("cambio1")
 						
 						cell = html(content);
 						row.append(cell);
