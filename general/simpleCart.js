@@ -8,6 +8,9 @@
 ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~*/
 /*jslint browser: true, unparam: true, white: true, nomen: true, regexp: true, maxerr: 50, indent: 4 */
 
+
+alert("simplecart cargado")
+
 (function (window, document) {
 	/*global HTMLElement */
 
